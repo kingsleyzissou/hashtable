@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controllers.HomeController">
+   <Label layoutX="105.0" layoutY="155.0" text="Welcome to Booking.io" textAlignment="CENTER">
+      <font>
+         <Font size="36.0"/>
+      </font>
+   </Label>
+   <JFXButton onMouseClicked="#search" layoutX="276.0" layoutY="247.0" style="-fx-background-color: #00BBD6;"
+              text="Click here to search" textFill="WHITE"/>
+   <!--<JFXButton layoutX="356.0" layoutY="247.0" onMouseClicked="#resetRestaurant" style="-fx-background-color: #EF3C79;"-->
+              <!--text="Reset" textFill="WHITE"/>-->
+</AnchorPane>

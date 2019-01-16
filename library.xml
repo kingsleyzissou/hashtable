@@ -1,0 +1,207 @@
+<object-stream>
+  <models.Library>
+    <bookTable>
+      <hashTable>
+        <models.Book>
+          <title>The Prisoner of Azkaban</title>
+          <genre>Young Adult</genre>
+          <pages>317</pages>
+          <author>J.K.Rowling</author>
+          <publisher>Bloomsbury</publisher>
+          <publicationYear>1999</publicationYear>
+          <plotDescription>One of Lord Voldemorts Death Eaters escapes from the wizarding prison of Azkaban.</plotDescription>
+          <characterList/>
+        </models.Book>
+        <null/>
+        <null/>
+        <null/>
+        <models.Book>
+          <title>The Philosophers Stone</title>
+          <genre>Young Adult</genre>
+          <pages>223</pages>
+          <author>J.K.Rowling</author>
+          <publisher>Bloomsbury</publisher>
+          <publicationYear>1997</publicationYear>
+          <plotDescription>A story about a young orphan boy who finds out he is a wizard</plotDescription>
+          <characterList/>
+        </models.Book>
+        <models.Book>
+          <title>The Return of the King</title>
+          <genre>Fantasy</genre>
+          <pages>416</pages>
+          <author>J.R.R. Tolkien</author>
+          <publisher>George Allen &amp; Unwin</publisher>
+          <publicationYear>1955</publicationYear>
+          <plotDescription>The last book in the Lord of the Rings trilogy</plotDescription>
+          <characterList>
+            <head>
+              <next>
+                <contents class="models.Character">
+                  <name>Bilbo Baggins</name>
+                  <gender>M</gender>
+                  <age>21</age>
+                  <description>The first hobbit</description>
+                  <charCreator>J.R.R. Tolkien</charCreator>
+                  <bookList>
+                    <head>
+                      <next>
+                        <next>
+                          <contents class="models.Book">
+                            <title>The Hobbit</title>
+                            <genre>High Fantasy</genre>
+                            <pages>310</pages>
+                            <author>J.R.R. Tolkien</author>
+                            <publisher>George Allen &amp; Unwin</publisher>
+                            <publicationYear>1937</publicationYear>
+                            <plotDescription>A tale about a hobbit</plotDescription>
+                            <characterList>
+                              <head>
+                                <next>
+                                  <contents class="models.Character" reference="../../../../../../../../.."/>
+                                </next>
+                                <contents class="models.Character">
+                                  <name>Harry Potter</name>
+                                  <gender>M</gender>
+                                  <age>11</age>
+                                  <description>The boy who lived</description>
+                                  <charCreator>J.K. Rowling</charCreator>
+                                  <bookList>
+                                    <head>
+                                      <contents class="models.Book" reference="../../../../../.."/>
+                                    </head>
+                                  </bookList>
+                                </contents>
+                              </head>
+                            </characterList>
+                          </contents>
+                        </next>
+                        <contents class="models.Book" reference="../../../../../../../.."/>
+                      </next>
+                      <contents class="models.Book">
+                        <title>The Fellowship of the Ring</title>
+                        <genre>Fantasy</genre>
+                        <pages>423</pages>
+                        <author>J.R.R. Tolkien</author>
+                        <publisher>George Allen &amp; Unwin</publisher>
+                        <publicationYear>1954</publicationYear>
+                        <plotDescription>A hobbit and a ring</plotDescription>
+                        <characterList>
+                          <head>
+                            <next>
+                              <contents class="models.Character" reference="../../../../../../.."/>
+                            </next>
+                            <contents class="models.Character">
+                              <name>Frodo Baggins</name>
+                              <gender>M</gender>
+                              <age>33</age>
+                              <description>Bilbo&apos;s nephew</description>
+                              <charCreator>J.R.R. Tolkien</charCreator>
+                              <bookList>
+                                <head>
+                                  <next>
+                                    <next>
+                                      <contents class="models.Book" reference="../../../../../../../../../../../../../../.."/>
+                                    </next>
+                                    <contents class="models.Book">
+                                      <title>The Two Towers</title>
+                                      <genre>Fantasy</genre>
+                                      <pages>352</pages>
+                                      <author>J.R.R. Tolkien</author>
+                                      <publisher>George Allen &amp; Unwin</publisher>
+                                      <publicationYear>1954</publicationYear>
+                                      <plotDescription>The sequel to The Fellowship of the Ring</plotDescription>
+                                      <characterList>
+                                        <head>
+                                          <contents class="models.Character" reference="../../../../../../.."/>
+                                        </head>
+                                      </characterList>
+                                    </contents>
+                                  </next>
+                                  <contents class="models.Book" reference="../../../../../.."/>
+                                </head>
+                              </bookList>
+                            </contents>
+                          </head>
+                        </characterList>
+                      </contents>
+                    </head>
+                  </bookList>
+                </contents>
+              </next>
+              <contents class="models.Character" reference="../next/contents/bookList/head/contents/characterList/head/contents"/>
+            </head>
+          </characterList>
+        </models.Book>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <models.Book reference="../models.Book[3]/characterList/head/next/contents/bookList/head/next/next/contents"/>
+        <null/>
+        <models.Book reference="../models.Book[3]/characterList/head/next/contents/bookList/head/contents/characterList/head/contents/bookList/head/next/contents"/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <models.Book reference="../models.Book[3]/characterList/head/next/contents/bookList/head/contents"/>
+        <null/>
+        <null/>
+        <models.Book>
+          <title>The Chamber of Secrets</title>
+          <genre>Young Adult</genre>
+          <pages>251</pages>
+          <author>J.K.Rowling</author>
+          <publisher>Bloomsbury</publisher>
+          <publicationYear>1998</publicationYear>
+          <plotDescription>The second book in the Harry Potter series, mysterious events are taking place in Hogwarts</plotDescription>
+          <characterList/>
+        </models.Book>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+      </hashTable>
+    </bookTable>
+    <characterTable>
+      <hashTable>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <models.Character reference="../../../bookTable/hashTable/models.Book[3]/characterList/head/next/contents"/>
+        <null/>
+        <null/>
+        <null/>
+        <models.Character reference="../../../bookTable/hashTable/models.Book[3]/characterList/head/next/contents/bookList/head/contents/characterList/head/contents"/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <models.Character reference="../../../bookTable/hashTable/models.Book[3]/characterList/head/next/contents/bookList/head/next/next/contents/characterList/head/contents"/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+        <null/>
+      </hashTable>
+    </characterTable>
+  </models.Library>
+</object-stream>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTogglePane?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
+   <left>
+      <JFXTogglePane BorderPane.alignment="CENTER">
+         <VBox prefHeight="400.0" prefWidth="128.0" style="-fx-background-color: #37474f;">
+            <JFXButton onMouseClicked="#loadHomeScene" prefHeight="32.0" prefWidth="128.0"
+                       style="-fx-background-color: #37474f;" text="Home" textFill="#78909c">
+               <VBox.margin>
+                  <Insets top="10.0"/>
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton layoutX="10.0" layoutY="20.0" onMouseClicked="#viewBooks" prefHeight="32.0"
+                       prefWidth="128.0" style="-fx-background-color: #37474f;" text="All Books" textFill="#78909c"/>
+            <JFXButton onMouseClicked="#viewCharacters" prefHeight="32.0" prefWidth="128.0"
+                       style="-fx-background-color: #37474f;" text="All Characters" textFill="#78909c"/>
+            <JFXButton onMouseClicked="#searchView" prefHeight="32.0" prefWidth="128.0"
+                       style="-fx-background-color: #37474f;" text="Search" textFill="#78909c"/>
+         </VBox>
+      </JFXTogglePane>
+   </left>
+   <top>
+      <JFXToolbar prefHeight="50.0" style="-fx-background-color: #263238;" BorderPane.alignment="CENTER">
+         <right>
+            <Label text="Books" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+            </Label>
+         </right>
+      </JFXToolbar>
+   </top>
+</BorderPane>
